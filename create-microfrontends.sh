@@ -5,9 +5,9 @@ installWebpackModuleFederation() {
   input_string="$1"
 
   if [[ "$input_string" = "core-app" ]]; then
-    npm install webpack webpack-cli html-webpack-plugin @module-federation/core
+    npm install webpack webpack-cli html-webpack-plugin # @module-federation/core
   else
-    npm install webpack webpack-cli @module-federation/core
+    npm install webpack webpack-cli # @module-federation/core
   fi
 
   cd ../
