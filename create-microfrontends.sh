@@ -13,14 +13,14 @@ installWebpackModuleFederation() {
   cd ../
 }
 
-npx create-react-app microfrontend1 --template typescript
-npx create-react-app microfrontend2 --template typescript
+npx create-react-app microfrontend1-repo --template typescript
+npx create-react-app microfrontend2-repo --template typescript
 npx create-react-app host-application-repo --template typescript
 
-cd microfrontend1
+cd microfrontend1-repo
 installWebpackModuleFederation
 
-cd microfrontend2
+cd microfrontend2-repo
 installWebpackModuleFederation
 
 cd host-application-repo

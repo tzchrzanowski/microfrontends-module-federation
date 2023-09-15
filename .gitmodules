@@ -4,3 +4,6 @@
 [submodule "microfrontend1-repo"]
 	path = microfrontend1-repo
 	url = https://github.com/tzchrzanowski/microfrontend1
+[submodule "microfrontend2-repo"]
+	path = microfrontend2-repo
+	url = https://github.com/tzchrzanowski/microfrontend2
