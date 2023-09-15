@@ -1,3 +1,6 @@
 [submodule "host-application-repo"]
 	path = host-application-repo
 	url = https://github.com/tzchrzanowski/host-application
+[submodule "microfrontend1-repo"]
+	path = microfrontend1-repo
+	url = https://github.com/tzchrzanowski/microfrontend1
