@@ -15,7 +15,7 @@ installWebpackModuleFederation() {
 
 npx create-react-app microfrontend1 --template typescript
 npx create-react-app microfrontend2 --template typescript
-npx create-react-app host-application --template typescript
+npx create-react-app host-application-repo --template typescript
 
 cd microfrontend1
 installWebpackModuleFederation
@@ -23,7 +23,7 @@ installWebpackModuleFederation
 cd microfrontend2
 installWebpackModuleFederation
 
-cd host-application
+cd host-application-repo
 installWebpackModuleFederation "core-app"
 
 

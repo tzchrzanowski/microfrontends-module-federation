@@ -1,0 +1,3 @@
+[submodule "host-application-repo"]
+	path = host-application-repo
+	url = https://github.com/tzchrzanowski/host-application
